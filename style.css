@@ -1,0 +1,133 @@
+/* Açıkçası, değişkenlere yerleştirebileceğiniz daha çok şey var, bunları kullanmak isteyip istemediğinize bağlı. Daha Sonra Degisiklik yapmak istersek isimizi kolaylastiracak*/
+
+:root {
+    --color1: #EEEEEE;
+    --color2: #7EE5DA;
+    --color3: #70CCC2;
+    --color4: #62B3AA;
+
+}
+
+/* genel site stilleri */
+
+html {
+    box-sizing: border-box;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: white;
+    padding: 0;
+    margin: 0;
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.header {
+    margin-top: 1rem;
+}
+
+.form-section {
+    background-color: var(--color1);
+
+}
+
+form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+
+form label {
+    padding: .5rem;
+}
+
+form .input-text {
+    width: 300px;
+    height: 2rem;
+    border-radius: 5px;
+}
+
+form .buttons {
+    padding: .5rem;
+}
+
+.buttons input {
+    padding: .5rem;
+    border-color: var(--color4);
+    border-radius: 5px;
+}
+
+form .buttons input:hover {
+    background-color: var(--color2);
+}
+
+.search2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0.3rem 0;
+}
+
+.search2 a {
+    text-decoration: none;
+}
+
+.search2 a:hover {
+    text-decoration: underline;
+}
+
+.bolum1,
+.bolum2,
+.bolum3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    height: 100px;
+
+}
+
+.bolum1 {
+    background-color: var(--color2);
+    flex-basis: 37%;
+}
+
+.bolum1 a {
+    padding-top: .1rem;
+}
+
+.bolum2 {
+    background-color: var(--color3);
+    flex-basis: 25%;
+}
+
+.bolum2 a {
+    padding: .1rem;
+}
+
+.bolum3 {
+    background-color: var(--color4);
+    flex-basis: 37%;
+}
+
+.bolum3 .buttons,
+.bolum3 input {
+    margin-top: .1rem;
+}
+
+.bolum3 .buttons input {
+    margin-right: .5rem;
+}
