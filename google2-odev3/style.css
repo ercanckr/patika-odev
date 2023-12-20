@@ -1,0 +1,182 @@
+/* genel site stilleri */
+
+html {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+body {
+    background-color: #202125;
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-between;
+    height: 100vh;
+    overflow: hidden;
+
+
+}
+
+
+
+.navbar {
+    background-color: #202125;
+    display: flex;
+    gap: 30px;
+    justify-content: flex-end;
+    color: white;
+}
+
+.menu-list {
+    display: flex;
+    list-style: none;
+    column-gap: 30px;
+}
+
+.menu-list-item {
+    cursor: pointer;
+}
+
+.menu-list-item:hover {
+    text-decoration: underline;
+
+}
+
+.container {
+    width: 88%;
+    margin: 0 auto;
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+
+}
+.container .google{
+    margin-bottom: 2rem;
+}
+
+.fa-table-cells {
+    border: 3px solid #202125;
+    border-radius: 50%;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.fa-table-cells:hover {
+    border: 3px solid #333437;
+    background-color: #333437;
+}
+
+.profil-picture {
+    width: 45px;
+    height: 45px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 5px solid #202125;
+}
+
+.profil-picture:hover {
+    border: 5px solid #333437;
+}
+
+
+
+.search-form {
+    background-color: #fff;
+    display: flex;
+    align-items: center;
+    border-radius: 3rem;
+    border: 1px solid #7B7B7B;
+    background-color: #202125;
+
+}
+
+.search-form:hover .search-input {
+    background-color: #303134;
+}
+
+.search-form:hover {
+    background-color: #303134;
+    border-color: transparent;
+}
+
+
+
+.search-input {
+    font-size: 1.6rem;
+    padding: 1rem;
+    text-transform: none;
+    border: none;
+    outline: none;
+    color: white;
+    background-color: #202125;
+
+}
+
+
+.search-form i {
+    cursor: pointer;
+    font-size: 2.2rem;
+    margin-right: 1.5rem;
+    color: #7B7B7B;
+}
+
+
+.search-form i.fa-search {
+    margin-left: 1.5rem;
+}
+
+.search-form input {
+    width: 100%;
+}
+
+.buttons {
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.buttons .submit {
+    padding: 10px;
+    margin: 2rem .5rem;
+    border-radius: 5px;
+    color: white;
+    background-color: #303134;
+    border-color: transparent;
+}
+
+.buttons .submit:hover {
+    border-color: #7B7B7B;
+
+
+}
+
+.footer2 {
+    width: 100%;
+    color: white;
+    background-color: #181818;
+    border-bottom: 5px solid #202125;
+    text-decoration: none;
+}
+
+.footer {
+    text-decoration: none;
+    width: 100%;
+    margin-top: 2px;
+    padding: 0 2rem;
+    background-color: #181818;
+    color: white;
+    display: flex;
+    flex-flow: row wrap;
+    align-items: center;
+    justify-content: space-between;
+}
+.footer li:hover{
+    text-decoration: underline;
+    cursor: pointer;
+}
